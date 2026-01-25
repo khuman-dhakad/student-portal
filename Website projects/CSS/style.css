@@ -40,10 +40,12 @@ body {
 .features {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
     padding: 60px;
     flex-wrap: wrap;
 }
+
 
 .card {
     background: white;
@@ -60,4 +62,23 @@ footer {
     padding: 20px;
     background: #1f2933;
     color: white;
+}
+/* Animations */
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.hero button {
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.hero button:hover {
+    background: #e0e7ff;
+    transform: scale(1.05);
 }
