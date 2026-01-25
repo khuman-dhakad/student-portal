@@ -82,3 +82,38 @@ footer {
     background: #e0e7ff;
     transform: scale(1.05);
 }
+.page-title{
+    text-align:center;
+    margin:30px 0;
+}
+
+.filters{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-bottom:30px;
+}
+
+.filters select, .filters button{
+    padding:10px;
+    border-radius:6px;
+    border:1px solid #ccc;
+    font-size:15px;
+}
+
+.results{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.paper-card{
+    background:white;
+    padding:20px;
+    width:260px;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    text-align:center;
+}
